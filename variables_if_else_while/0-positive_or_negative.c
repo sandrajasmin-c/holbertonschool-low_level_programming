@@ -1,4 +1,6 @@
 #include <stdlib.h>
+#include <time.h>
+#include <stdio.h>
 
 /**
 *main - ejecutar funcion si es poaitivo negativo o zero.
@@ -24,5 +26,5 @@ int main(void)
 	
 	  printf("%d is zero\n", n);
 	
-	Return (0);
+	return (0);
 }
