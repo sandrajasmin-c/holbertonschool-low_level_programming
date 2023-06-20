@@ -1,3 +1,5 @@
+#include <stdlib.h>
+
 /**
 *main - ejecutar funcion si es poaitivo negativo o zero.
 *
