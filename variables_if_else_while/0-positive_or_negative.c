@@ -1,6 +1,6 @@
 /**
 *main - ejecutar funcion si es poaitivo negativo o zero.
- */
+*
 * Return: Always 0
 */
 int main(void)
