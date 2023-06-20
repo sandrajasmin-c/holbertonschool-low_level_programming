@@ -1,0 +1,19 @@
+#include <stdlib.h>
+#include <time.h>
+/* more headers goes there */
+/*
+*main - Complete the source code in order to print whether the number stored in the variable n is positive or negativo 
+*      o si es cero
+*
+*
+ main(void)
+{
+	int n;
+
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+/* your code goes there */
+
+if (n>0)
+  printf("%d is positive
+  
