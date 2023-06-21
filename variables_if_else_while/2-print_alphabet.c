@@ -10,13 +10,12 @@
  */
 int main(void)
 {
-     char c;
-
-	 
-
-
-
-
-	  (n/* your code goes there */
+  int c = 97;
+  while(c <= 122)
+       {
+	 putchar(c);
+	 c++;
+       }
+  putchar('\n');
   return (0);
 }
