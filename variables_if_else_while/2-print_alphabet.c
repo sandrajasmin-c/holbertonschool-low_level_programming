@@ -3,15 +3,14 @@
 #include <stdio.h>
 
 /**
-
  * main - imprimir alfabeto en minuscula 
  * 
  *Return: Always 0
  */
 int main(void)
 {
-  int c = 97;
-  while(c <= 122)
+  int c = 'a';
+  while(c <= 'z')
        {
 	 putchar(c);
 	 c++;
