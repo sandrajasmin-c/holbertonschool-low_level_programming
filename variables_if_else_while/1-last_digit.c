@@ -4,7 +4,6 @@
 
 /**
  * main - imprimir funcion de un numero
- * 
  *Return: Always (success)
  */
 int main(void)
@@ -16,7 +15,6 @@ int main(void)
        /* your code goes there */
 
        last_digit = n % 10;
-       
        if (last_digit > 5)
 
        {
