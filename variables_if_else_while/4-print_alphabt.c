@@ -1,28 +1,20 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
 
 /**
- * main - imprimir alfabeto en minuscula
+ * main - Prints the alphabet in lowercase, except for q and e.
  *
- *Return: Always 0
+ * Return: Always 0
  */
-int main(void)
+	int main(void)
 {
-	int c = 'a';
+	char letter;
 
-	while (c <= 'z')
+	for (letter = 'a'; letter <= 'z'; letter++)
 	{
-		putchar(c);
-		c++;
-	}
-	
-	if (letter != 'e' && letter != 'q')
-			putchar(C);
-	{
-		putchar(c);
-		c++;
+		if (letter != 'e' && letter != 'q')
+			putchar(letter);
 	}
 	putchar('\n');
+
 	return (0);
 }
