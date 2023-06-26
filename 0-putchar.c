@@ -1,16 +1,17 @@
 #include <stdio.h>
 
 /**
- *
- main - que imprima putchar 
- *
+* main - que imprima putchar 
+* 
 *Return: Always 0
-*/
+**/ 
+int main (void)
 {
-	*int = putchar 
-{	
-    printf("_putchar\n");
-    return 0;
-}
 
+	char (*str) = "_putchar\n";
+	while (*str)	
+{	
+    	_putchar(*str++);
+}
+    return 0;
 }

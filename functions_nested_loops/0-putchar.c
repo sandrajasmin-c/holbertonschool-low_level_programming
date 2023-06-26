@@ -1,17 +1,19 @@
-#include "main.h"
+#include <stdio.h>
+
 /**
- * main - imprimir putchar 
- * Return: Always (success)
- */
-
-	int main 
-
-	char *str = "_putchar\n";
+ * main - que imprima putchar
+ *
+ * Return: Always 0
+ **/
+	int main(void)
 {
-while (*str);
-{  		
-       _putchar(*str++);
-}
-    return 0;
-}
 
+		char (*str) = "_putchar\n";
+
+		While(*str)
+{
+	putchar(*str++);
+}
+	(return 0;)
+
+}
