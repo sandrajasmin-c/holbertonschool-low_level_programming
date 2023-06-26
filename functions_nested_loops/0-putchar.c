@@ -10,10 +10,9 @@
 
 		char (*str) = "_putchar\n";
 
-		While(*str)
+		while(*str)
 {
 	putchar(*str++);
 }
-	(return 0;)
-
+	return 0;
 }
