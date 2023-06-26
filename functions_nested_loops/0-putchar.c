@@ -12,8 +12,8 @@
 	while (*str)
 
 {
-	_putchar(*str++);
+	putchar(*str++);
 
 }
-	(return 0;)
+	return (0);
 }
