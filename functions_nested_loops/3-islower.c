@@ -5,19 +5,18 @@
 *
 * Return: Always 0. o 1
 */
- 
 
 int _islower(int c)
 
 {
- int  i;
+	int  i = 0;
 
-    
-for ( i = 97; i  <= 122; i++) 
+	for (i = 'a'; i  <= 'z'; i++)
 	{
-	if (c == i)
-	    return 0;
+	if (i == c)
+	{
+	return (1);
 	}
-	
-		return (1);
+	}
+		return (0);
 }
