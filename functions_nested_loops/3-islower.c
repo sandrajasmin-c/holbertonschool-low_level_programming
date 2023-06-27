@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * _islower- imprimir si es 1 o 0 para cada instruccion.
- *@c: the cracther revisado
- *
- * Return: 1 albabeto 
+* _islower- imprimir si es 1 o 0 para cada instruccion.
+*@c: the cracther revisado
+*
+*Return: 1 albabeto
 */
 
 
