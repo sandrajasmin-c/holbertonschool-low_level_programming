@@ -3,21 +3,22 @@
 /**
  * main - veririfcar caracter de minuscula.
  *
- * Return: Always 0.
-  7 */
+ * Return: Always 0 o 1
+ */
 
-int _isalpha(int c);
+	int _isalpha(int c);
+{
+ 
+	int i = 0;
 
-int c;
- c = i
+	if ((c >= 65 && c <= 90) || (c >= 97 && c <= 122))
+{	
+	return (1);
+}
+	
+	return (0);
+}
 
- {
-  for (int i = ((101 <= 132); && (97 <= 122))i++)
-         {
-       if (c <= 132 && c <= 122)
-             return 0;
-         }
+    
 
-                 return (1)
- }
 

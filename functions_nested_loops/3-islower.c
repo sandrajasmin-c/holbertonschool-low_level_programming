@@ -1,13 +1,15 @@
 #include "main.h"
 
 /**
-* main - veririfcar caracter de minuscula.
-*
-* Return: Always 0. o 1
+ * _islower- imprimir si es 1 o 0 para cada instruccion.
+ *@c: the cracther revisado
+ *
+ * Return: 1 albabeto 
 */
 
-int _islower(int c)
 
+
+int _islower(int c)
 {
 	int  i = 0;
 
