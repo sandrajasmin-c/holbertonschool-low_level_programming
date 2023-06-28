@@ -1,19 +1,30 @@
 #include "main.h"
 
 /**
-*@s1: main - Write a function that prints the sign of a number.
-*@s2:
-*@n: 
+*main - print_sign Prints the sign of a number.
+*@s:imprime a caracter un numero
 *
-* Return: Always 0. o 1
+* Return: 1 and n = 0 y 0 si n = 0 and -1 si n es negativo
 */
 
-int print_sign(int n);
+int print_sign(int n)
+{
 
-int = n1, n2, n3
-if  (n1 > 0 && n2 ==0 && <0 =-1)
-{ 
+	if (n > 0)
+	{
+	_putchar ('+');
+	return (1);
+	}
+	else if (n == 0)
+	{
+	_putchar('0');
+	return (0);
+	}
+	else
+	{
+	_putchar('-');
+	return (-1);
+	}
+return (0);
+
 }
-	putchar 
-
-
