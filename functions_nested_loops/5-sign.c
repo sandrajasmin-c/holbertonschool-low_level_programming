@@ -2,12 +2,12 @@
 
 /**
 *main - print_sign Prints the sign of a number.
-*@s:imprime a caracter un numero
+*@n:imprime a caracter un numero
 *
 * Return: 1 and n = 0 y 0 si n = 0 and -1 si n es negativo
 */
 
-int print_sign(int n)
+	void int print_sign(int n)
 {
 
 	if (n > 0)
