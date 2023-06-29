@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 /**
-*reset_to_98 - localizador de la memoria en el U
+*reset_to_98 localizador de la memoria en el U
 * el valor del puntero es 98
 *
 *@n:lozalizar variable del puntero
