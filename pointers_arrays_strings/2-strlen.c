@@ -4,8 +4,9 @@
 *_strlenr - imprime la longitud de la cadena.
 *
 *@s:retorna una longitud
-*Return: la direccion de la memoria o puntero
-*la ción _starlen imprime la longitud de una cadena
+*@:_starlen retorna la longitud 
+*Return: retorna la variable index
+*la funcion _starlen imprime la longitud de una cadena
  */
 
 int _strlen(char *s)
