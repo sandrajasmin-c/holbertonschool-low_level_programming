@@ -1,0 +1,19 @@
+#include "main.h"
+
+/**
+ * print_array - that prints n elements of an array of integers
+ *
+ * @a: pointer to an intenger
+ * @n: number of elements in a array
+ */
+void print_array(int *a, int n)
+{
+	int index = 0;
+
+	while (index != n - 1)
+	{
+		printf("%d, ", a[index]);
+		index++;
+	}
+	printf("%d\n", a[index]);
+}

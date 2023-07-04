@@ -1,12 +1,10 @@
-#include<stdio.h>
+#include <stdio.h>
 
 /**
-*reset_to_98 localizador de la memoria en el U
+* reset_to_98 - localizador de la memoria en el U
 * el valor del puntero es 98
 *
-*@n:lozalizar variable del puntero
-*Return : la direccion de la memoria o puntero
-*la función reset_to_98 es una función en C de 98
+*@n: pointer to be changed
 */
 
 void reset_to_98(int *n)
