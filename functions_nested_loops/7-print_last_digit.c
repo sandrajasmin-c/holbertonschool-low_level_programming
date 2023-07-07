@@ -2,7 +2,7 @@
 
 /**
 *print_last_digit -  uu
-* @num:
+*@num:
 *@n:
 * Return: el valor del ultimo digito
 */
