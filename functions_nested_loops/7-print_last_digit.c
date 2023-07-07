@@ -8,7 +8,7 @@
 */
 
 {
-	int print_last_digit(int n) 
+	int print_last_digit(int n)
 	int num;
 
 	num = n % 10;
@@ -19,5 +19,6 @@
 		num = num * -1;
 	}
 	_putchar (num + '0');
-	return(num);
+
+	return (num);
 }
