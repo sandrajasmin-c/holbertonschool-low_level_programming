@@ -2,13 +2,13 @@
 
 /**
 *print_last_digit -  uu
-*@num:
-*@n:
+*
+*@n: es una variable numero
 * Return: el valor del ultimo digito
 */
 
+int print_last_digit(int n)
 {
-	int print_last_digit(int n)
 	int num;
 
 	num = n % 10;
