@@ -1,8 +1,10 @@
 #include "main.h"
 
+/* funcion que imprime un numero*/
 /**
-*@:print_sign Prints the sign of a number.
-*@n: imprime a caracter un numero
+*funcion print_sign
+*print_sign Prints the sign of a number.
+*@n:imprime a caracter un numero
 *
 * Return: 1 and n = 0 y 0 si n = 0 and -1 si n es negativo
 */

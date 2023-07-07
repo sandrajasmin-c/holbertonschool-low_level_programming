@@ -1,0 +1,21 @@
+#include "main.h"
+
+/**
+*print_last_digit -  uu
+* @numero:
+* Return: el valor del ultimo digito
+*/
+
+
+int print_last_digit(int) {
+	int num;
+	num = n % 10;
+
+	if (num < 0)
+	{
+
+		num = num * -1;
+	}
+	_putchar(num + '0');
+	return(num);
+}
