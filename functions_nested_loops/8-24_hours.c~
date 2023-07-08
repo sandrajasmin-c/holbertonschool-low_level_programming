@@ -1,0 +1,29 @@
+#include "main.h"
+
+/**
+*
+@:
+*
+*/
+
+void jack_bauer(void)
+{
+	int minutos, horas;
+		minutos = 0;
+	horas = 0;
+
+		while (horas <= 23){
+		
+		while (minutos <=59){
+                
+		_putchar((horas / 10) + '0');
+			_putchar((horas % 10) + '0');
+			_putchar(':');
+			_putchar((minutos / 10) + '0');
+			_putchar((minutos % 10) + '0');
+			_putchar('\n');
+			minutos++;
+	}
+		horas++;
+	}
+}
